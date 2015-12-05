@@ -1,0 +1,9 @@
+[ 2015-06-03T23:41:22+08:00 ] 127.0.0.1 /index.php/Home/Users/checkUserName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032805s ]
+SQL: SELECT `user_id` FROM `users` WHERE ( user_name = 'lajigao' )  [ RunTime:0.2390s ]
+
